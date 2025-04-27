@@ -1,0 +1,14 @@
+name = "okuldas-videos-service"
+main = "src/index.ts"
+compatibility_date = "2025-03-30"
+
+[observability]
+enabled = true
+
+[images]
+binding = "IMAGES"
+
+[vars]
+API_TOKEN = "kagUbHXEmAeJXrZPzs-GkQQ6k9nqx-r45ZQSjbJL"
+API_URL = "https://api.cloudflare.com/client/v4/accounts/584063f9a9992deec90f40689fa5f914"
+AUTH_API_KEY = "RQnMZFtzyQSFY1Ov8KoXRrJ7gKU5u5Oz"
