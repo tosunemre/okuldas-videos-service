@@ -31,7 +31,7 @@ export default {
 				const parts = deletingVideoUrl.split('/');
 				const videoId = parts[parts.length - 2];
 				if (videoId) {
-					return fetch(`${env.API_URL}/stream/v1/${videoId}`, {
+					return fetch(`${env.API_URL}/stream/${videoId}`, {
 						method: 'DELETE',
 						headers: {
 							Authorization: `Bearer ${env.API_TOKEN}`,
